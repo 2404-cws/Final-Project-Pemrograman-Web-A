@@ -87,7 +87,7 @@ CRUD Laravel juga merupakan singkatan dari Create (buat), Read (baca / menampilk
 ![enter image description here](https://i.ibb.co/Y349hdH/Whats-App-Image-2021-12-29-at-6-36-21-PM.jpg)
 Fitur search sepatu digunakan oleh penjual agar memudahkan dalam pencarian stok sepatu, sehingga penjual tidak perlu secara manual mencari di gudang.
 
-**6. Export data dalam bentuk format CSV dan PDF **
+**6. Export data dalam bentuk format CSV dan PDF**
 ![enter image description here](https://i.ibb.co/BZGh9F2/Whats-App-Image-2021-12-28-at-7-49-38-PM.jpg)
 ![enter image description here](https://i.ibb.co/KW1wvSZ/Whats-App-Image-2021-12-29-at-6-35-04-PM.jpg)
 Fitur Export data ini digunakan penjual dalam mengexport tabel data stok sepatu dalam bentuk format excel dan pdf yang bisa di unduh, sehingga memudahkan penjual menganalisa data stok sepatu secara offline.
