@@ -1,0 +1,45 @@
+@extends('layout.template')
+
+@section('content') <br>
+
+<form action="/data_merk/update/{{ $merk->id }}" method="POST">
+
+  @csrf
+
+<center>
+
+    <div class="col-md-6">
+        <div class="card card-secondary">
+            <div class="card-header">
+                <h3 class="card-title">Edit Merk</h3>
+            </div>
+
+            <div class="card-body">
+            
+                <div class="form-group">                 
+                    <label>Nama Merk</label>
+                    <input type="text" id="nama_merk" name="nama_merk" class="form-control " value="{{ $merk->nama_merk }}" style="width: 100%;">  
+                    <div class="text-danger">
+                        @error('nama_merk')
+                            {{ $message }}
+                        @enderror
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <button class="btn btn-primary btn-sm">Edit</button>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</form>
+
+
+  @endsection
+
+</center>
+
