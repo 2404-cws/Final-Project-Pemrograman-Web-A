@@ -51,8 +51,7 @@
           <td>{{ $item -> id }}</td>
           <td>{{ $item -> nama_merk }}</td>
           <td><a href="/data_merk/edit{{ $item->id }}" class="btn btn-sm btn-warning">Edit</a>
-            <a href="/data_merk/delete{{ $item->id }}" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#delete{{ $item->id }}" >Delete</a></td>
-            
+            <a href="/data_merk/delete{{ $item->id }}" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#delete{{ $item->id }}" >Delete</a></td>            
         </tr>
 
 
@@ -83,10 +82,6 @@
           
         </tbody>
       </table>
-
-     
-      
-
     </div>
     <!-- /.card-body -->
     
@@ -96,4 +91,3 @@
 
   </div>
 @endsection
-
