@@ -1,7 +1,5 @@
 @extends('layout.template')
-
-@section('content') <br>
-
+@section('content') <br> <br>
 
 @if (session('pesan'))
 <div class="alert alert-success alert-dismissible">
@@ -10,9 +8,7 @@
   {{ session('pesan') }}.
 </div>
 @endif
-
 <br>
-
 
 <div class="row align-items-start">
   <div class="col">
@@ -30,9 +26,6 @@
     <!-- /search -->
   </div>
 </div>
-
-
-
 
 <div class="card">
     <div class="card-header">
@@ -72,8 +65,6 @@
 
       @foreach ($produk as $data)
       
-  
-
       <!-- modal delete -->
       <div class="modal modal-danger fade" id="delete{{ $data->id }}">
                 <div class="modal-dialog modal-sm">
@@ -99,9 +90,7 @@
             <!-- end modal delete -->
       @endforeach
       {{$produk->links();}}
-
     </div>
     <!-- /.card-body -->
   </div>
 @endsection
-
