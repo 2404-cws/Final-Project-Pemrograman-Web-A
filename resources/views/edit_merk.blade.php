@@ -1,7 +1,5 @@
 @extends('layout.template')
-
 @section('content') <br>
-
 <form action="/data_merk/update/{{ $merk->id }}" method="POST">
 
   @csrf
@@ -31,15 +29,10 @@
                     <button class="btn btn-primary btn-sm">Edit</button>
                 </div>
 
-
             </div>
 
         </div>
     </div>
 </form>
-
-
   @endsection
-
 </center>
-
